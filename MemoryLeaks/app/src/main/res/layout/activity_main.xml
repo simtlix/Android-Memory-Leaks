@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.memoryleaks.activity.MainActivity">
+
+    <Button
+        android:id="@+id/ejemplo1_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ej1: Activity a una vista estática"/>
+
+    <Button
+        android:id="@+id/ejemplo2_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ej2: Activity a una variable estática"/>
+
+    <Button
+        android:id="@+id/ejemplo3_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ej3: Leak Activity a un objeto singleton"/>
+
+    <Button
+        android:id="@+id/ejemplo4_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ej4: Leak Activity a una clase interna"/>
+
+    <Button
+        android:id="@+id/ejemplo5_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ej5: Leak Activity a un listener"/>
+
+    <Button
+        android:id="@+id/ejemplo6_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ej6: Leak Activity a un thread"/>
+
+    <Button
+        android:id="@+id/ejemplo7_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ej7: Leak Activity a un handler"/>
+
+    <Button
+        android:id="@+id/ejemplo8_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ej8: Leak Activity a una AsyncTask"/>
+
+</LinearLayout>
